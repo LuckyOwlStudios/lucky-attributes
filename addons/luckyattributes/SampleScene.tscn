@@ -1,0 +1,20 @@
+[gd_scene format=3 uid="uid://b2v53dvi24h2x"]
+
+[ext_resource type="Script" uid="uid://d1sb5len1xxyh" path="res://addons/luckyattributes/attribute/attribute.gd" id="1_m8may"]
+[ext_resource type="Script" uid="uid://bjk03p0gy2cpg" path="res://addons/luckyattributes/extra/reader_progress_bar.gd" id="2_jbacx"]
+
+[node name="SampleScene" type="Node" unique_id=2077418784]
+
+[node name="Attribute" type="Node" parent="." unique_id=1761239184]
+script = ExtResource("1_m8may")
+value = 17.46818340740758
+metadata/_custom_type_script = "uid://d1sb5len1xxyh"
+
+[node name="ReaderProgressBar" type="ProgressBar" parent="." unique_id=305905505 node_paths=PackedStringArray("attribute")]
+custom_minimum_size = Vector2(200, 0)
+offset_right = 200.0
+offset_bottom = 27.0
+value = 17.47
+script = ExtResource("2_jbacx")
+attribute = NodePath("../Attribute")
+metadata/_custom_type_script = "uid://bjk03p0gy2cpg"
