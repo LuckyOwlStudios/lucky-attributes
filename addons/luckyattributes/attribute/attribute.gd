@@ -1,6 +1,10 @@
 @tool
+@icon("uid://tmoqeff3atmw")
 class_name Attribute
 extends Node
+## A base node that tracks a numerical value with a minimum, maximum, and optional rate of change.
+## Supports [AttributeModifier] resources that can dynamically affect [member max_value] and [member rate_of_change].
+## Extend this class to create specific attributes such as [HealthAttribute], stamina, oxygen, and more.
 
 ## Emitted when the current value changes
 signal value_changed(previous_value: float, current_value: float, change_amount: float)
@@ -189,7 +193,7 @@ func recalculate_attributes():
 
 ## Override this in subclasses to expose additional targetable variables
 func _get_modifier_targets() -> String:
-	return "value,max_value,rate_of_change"
+	return "max_value,rate_of_change"
 
 func has_modifier(id: String) -> bool:
 	return get_modifier(id) != null

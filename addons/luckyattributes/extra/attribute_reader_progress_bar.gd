@@ -1,16 +1,6 @@
 @tool
-class_name ReaderProgressBar
+class_name AttributeReaderProgressBar
 extends ProgressBar
-
-## POSSIBLE USE FOR ANY NODE
-#@export var node: Node:
-	#set(new_node):
-		## Disconnect from old node first
-		#if node and node.has_signal("value_changed") and node.value_changed.is_connected(value_changed):
-			#node.disconnect("value_changed", value_changed)
-		#node = new_node
-		#if node and node.has_signal("value_changed"):
-			#node.connect("value_changed", value_changed)
 
 @export var attribute: Attribute:
 	set(new_node):

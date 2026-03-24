@@ -1,20 +1,41 @@
 [gd_scene format=3 uid="uid://b2v53dvi24h2x"]
 
 [ext_resource type="Script" uid="uid://d1sb5len1xxyh" path="res://addons/luckyattributes/attribute/attribute.gd" id="1_m8may"]
-[ext_resource type="Script" uid="uid://bjk03p0gy2cpg" path="res://addons/luckyattributes/extra/reader_progress_bar.gd" id="2_jbacx"]
+[ext_resource type="Script" uid="uid://bjk03p0gy2cpg" path="res://addons/luckyattributes/extra/attribute_reader_progress_bar.gd" id="2_jbacx"]
+[ext_resource type="Script" uid="uid://b5mi502f44nui" path="res://addons/luckyattributes/attribute/types/health_attribute.gd" id="3_db5wy"]
+[ext_resource type="Script" uid="uid://dilxkrrqrncnh" path="res://addons/luckyattributes/attribute/types/stamina_attribute.gd" id="3_r4dkg"]
+[ext_resource type="Script" uid="uid://c8gncpua7y1l2" path="res://addons/luckyattributes/attribute/types/oxygen_attribute.gd" id="4_vvakf"]
 
 [node name="SampleScene" type="Node" unique_id=2077418784]
 
 [node name="Attribute" type="Node" parent="." unique_id=1761239184]
 script = ExtResource("1_m8may")
-value = 17.46818340740758
 metadata/_custom_type_script = "uid://d1sb5len1xxyh"
 
-[node name="ReaderProgressBar" type="ProgressBar" parent="." unique_id=305905505 node_paths=PackedStringArray("attribute")]
+[node name="HealthAttribute" type="Node" parent="." unique_id=732708287]
+script = ExtResource("3_db5wy")
+invincible = null
+passive_regen = null
+hurt_percentage = null
+max_time_before_health_regen = null
+passive_regen_rate = null
+metadata/_custom_type_script = "uid://b5mi502f44nui"
+
+[node name="StaminaAttribute" type="Node" parent="." unique_id=505293644]
+script = ExtResource("3_r4dkg")
+passive_regen = null
+base_time_before_regen = null
+base_consumption_rate = null
+metadata/_custom_type_script = "uid://dilxkrrqrncnh"
+
+[node name="OxygenAttribute" type="Node" parent="." unique_id=1068994386]
+script = ExtResource("4_vvakf")
+metadata/_custom_type_script = "uid://c8gncpua7y1l2"
+
+[node name="AttributeReaderProgressBar" type="ProgressBar" parent="." unique_id=230333540 node_paths=PackedStringArray("attribute")]
 custom_minimum_size = Vector2(200, 0)
 offset_right = 200.0
 offset_bottom = 27.0
-value = 17.47
 script = ExtResource("2_jbacx")
 attribute = NodePath("../Attribute")
 metadata/_custom_type_script = "uid://bjk03p0gy2cpg"

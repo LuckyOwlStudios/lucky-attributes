@@ -1,6 +1,10 @@
 @tool
 class_name AttributeModifier
 extends Resource
+## A resource that modifies a target variable on an [Attribute].
+## Supports three operation types: flat addition, base multiplication, and total multiplication.
+## Can be given an optional duration, after which it is automatically removed from the attribute.
+## Assign modifiers to an [Attribute] via [method Attribute.add_modifier].
 
 enum OPERATION_TYPE {
 	ADD_VALUE, ## Adds the value
