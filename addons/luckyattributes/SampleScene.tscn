@@ -30,6 +30,10 @@ metadata/_custom_type_script = "uid://dilxkrrqrncnh"
 
 [node name="OxygenAttribute" type="Node" parent="." unique_id=1068994386]
 script = ExtResource("4_vvakf")
+unlimited = null
+passive_regen = null
+passive_regen_rate = null
+suffocation_rate = null
 metadata/_custom_type_script = "uid://c8gncpua7y1l2"
 
 [node name="AttributeReaderProgressBar" type="ProgressBar" parent="." unique_id=230333540 node_paths=PackedStringArray("attribute")]

@@ -5,12 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6b4d2f2c-e3ff-4774-ab49-63ce0718322a" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/addons/luckyattributes/AttributesLogo.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/addons/luckyattributes/SampleScene.tscn" beforeDir="false" afterPath="$PROJECT_DIR$/addons/luckyattributes/SampleScene.tscn" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/addons/luckyattributes/attribute/attribute.gd" beforeDir="false" afterPath="$PROJECT_DIR$/addons/luckyattributes/attribute/attribute.gd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/addons/luckyattributes/attribute/attribute_modifier.gd" beforeDir="false" afterPath="$PROJECT_DIR$/addons/luckyattributes/attribute/attribute_modifier.gd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/addons/luckyattributes/extra/reader_progress_bar.gd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/addons/luckyattributes/extra/reader_progress_bar.gd.uid" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/icon.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/icon.svg.import" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/icon_monochrome_dark.png" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,18 +40,22 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/bryan/Documents/Game Dev/Godot/lucky-attributes&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Users/bryan/Documents/Game Dev/Godot/lucky-attributes",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected="GdScript Start and Debug.Player GDScript">
     <configuration name="Player GDScript" type="GDSCRIPT_DEBUG_RUN_CONFIGURATION" factoryName="GdScriptRunFactory" show_console_on_std_err="false" show_console_on_std_out="false" port="6006">
       <option name="address" value="127.0.0.1" />
@@ -83,7 +87,17 @@
       <option name="presentableId" value="Default" />
       <updated>1774298974834</updated>
       <workItem from="1774305975605" duration="8000" />
+      <workItem from="1774330350535" duration="2447000" />
     </task>
+    <task id="LOCAL-00001" summary="- Added Icons for all attribute.gd&#10;- Added the Health, Stamina, and Oxygen Attributes">
+      <option name="closed" value="true" />
+      <created>1774330519800</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1774330519800</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -93,5 +107,7 @@
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+    <MESSAGE value="- Added Icons for all attribute.gd&#10;- Added the Health, Stamina, and Oxygen Attributes" />
+    <option name="LAST_COMMIT_MESSAGE" value="- Added Icons for all attribute.gd&#10;- Added the Health, Stamina, and Oxygen Attributes" />
   </component>
 </project>
